@@ -1,0 +1,18 @@
+{
+  "name": "lireddit",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "nodemon dist/index.js",
+    "watch": "tsc -w"
+  },
+  "repository": "https://github.com/D3kion/lireddit.git",
+  "author": "D3kion <dekion.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.2"
+  }
+}
